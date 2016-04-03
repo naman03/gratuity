@@ -1,0 +1,63 @@
+body{
+	zoom: 95%;
+}
+.error {
+	text-align: center;
+	color: red;
+}
+
+@media (max-width: 767px) {
+
+	form input[type="text"], form input[type="email"], form input[type="password"], form select, form textarea {
+		width:95%;
+	}
+  body .modal.fade.in {
+    top: 5%;
+  }
+}
+.modal{
+	color: black;
+}
+
+
+
+#nav ul li a span {
+  color: white;}
+
+
+
+  .btn-black{
+		background-color: #000;
+	}
+.button{
+	background-color: #00bef2;
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.0)), url('images/overlay.png');
+}
+#sidePanel {
+	background-color: #00bef2;
+}
+#header {
+	background-color: #00bef2;
+}
+.btn-black{
+		background-color: #000;
+	}
+	#main > section.three {
+		background-color: #fff;
+	}
+	a {
+		color: #F5FAFA;
+	}
+
+
+	button:hover{
+  background-color: #00bef2;
+  color: #fff;
+}
+button.btn-info{
+  background-color:#fff;color:#00bef2;
+}
+button.btn-info:hover{
+  background-color: #00bef2;
+  color: #fff;
+}
